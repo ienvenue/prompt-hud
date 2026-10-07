@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC72BD9711905B86431D0F3 /* PHUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543FB3694EC51E2997921C3 /* PHUsage.swift */; };
+		2C746E2243E2B9E440318F9D /* PHPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30B1BD12408CB44E5A58A3 /* PHPanel.swift */; };
+		420D62D84C7CA431A46D9647 /* PHSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4C6980403BF9A11F1B399 /* PHSystem.swift */; };
+		42E9C329301B7F9C00B6B55B /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 42E9C328301B7F9C00B6B55B /* AppIcon.icon */; };
+		45D7C90299746B110EA5E0F5 /* PHModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D4F19602FD8A37AACDEC4 /* PHModels.swift */; };
+		4F13E3EF918992CA439E33EF /* PHStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55D547E2E34408E05EDA1C /* PHStore.swift */; };
+		728ABC9B07CFDC9A78DE36F5 /* PHSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A0A0FF001C796829917DA /* PHSettings.swift */; };
+		9B2C8009ECACF2EA9C8CD6E5 /* PHHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1AF2186AC60DCE461FAB04 /* PHHUD.swift */; };
+		AD27515E6EDA38A0E08D0C0C /* PHCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C6FCBBAF3A4D27FCA11E4 /* PHCapture.swift */; };
+		CC4F55E6D7E17FD698FA8819 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5E94458547E5725C04C95D3A /* Localizable.xcstrings */; };
+		DA009934256411F90030E697 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DA00992F256411F90030E697 /* LICENSE */; };
+		DA009955256414E60030E697 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = DA009954256414E60030E697 /* KeyboardShortcuts */; };
+		DA05B5112C234CB2006980FE /* PromptHUDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA05B5102C234CB1006980FE /* PromptHUDApp.swift */; };
+		DA13D7CA2C19F52B00FA9E23 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = DA13D7C92C19F52B00FA9E23 /* LaunchAtLogin */; };
+		DA5154D82564102900C01004 /* Sauce in Frameworks */ = {isa = PBXBuildFile; productRef = DA5154D72564102900C01004 /* Sauce */; };
+		DA5F46512020E9FB00425C11 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5F464F2020E4DF00425C11 /* Carbon.framework */; };
+		DA6373981E4AB9BB00263391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6373971E4AB9BB00263391 /* Assets.xcassets */; };
+		DABDE97F2974706C005B32E9 /* KeyboardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABDE97E2974706C005B32E9 /* KeyboardLayout.swift */; };
+		DAEE38471E3DBEB100DD2966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE38461E3DBEB100DD2966 /* AppDelegate.swift */; };
+		F386637480985627EB0F3610 /* PHSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754825B01B06BDA1C3F8CBEA /* PHSearch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAAAAB942C7664A2004FBC3C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01E761211CA3C8BAA2727879 /* Signing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		2543FB3694EC51E2997921C3 /* PHUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUsage.swift; sourceTree = "<group>"; };
+		42E9C328301B7F9C00B6B55B /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		4A5C6FCBBAF3A4D27FCA11E4 /* PHCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCapture.swift; sourceTree = "<group>"; };
+		4C5D4F19602FD8A37AACDEC4 /* PHModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHModels.swift; sourceTree = "<group>"; };
+		5E94458547E5725C04C95D3A /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		64B4C6980403BF9A11F1B399 /* PHSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSystem.swift; sourceTree = "<group>"; };
+		754825B01B06BDA1C3F8CBEA /* PHSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSearch.swift; sourceTree = "<group>"; };
+		AA1AF2186AC60DCE461FAB04 /* PHHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHUD.swift; sourceTree = "<group>"; };
+		BD30B1BD12408CB44E5A58A3 /* PHPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPanel.swift; sourceTree = "<group>"; };
+		DA00992F256411F90030E697 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DA05B5102C234CB1006980FE /* PromptHUDApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptHUDApp.swift; sourceTree = "<group>"; };
+		DA5F464F2020E4DF00425C11 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		DA6373971E4AB9BB00263391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB8CE4024E3677F00A2500E /* PromptHUD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PromptHUD.entitlements; sourceTree = "<group>"; };
+		DABDE97E2974706C005B32E9 /* KeyboardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout.swift; sourceTree = "<group>"; };
+		DAEE38431E3DBEB100DD2966 /* PromptHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromptHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEE38461E3DBEB100DD2966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DAEE384D1E3DBEB100DD2966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3A0A0FF001C796829917DA /* PHSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettings.swift; sourceTree = "<group>"; };
+		EF55D547E2E34408E05EDA1C /* PHStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAEE38401E3DBEB100DD2966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA009955256414E60030E697 /* KeyboardShortcuts in Frameworks */,
+				DA5F46512020E9FB00425C11 /* Carbon.framework in Frameworks */,
+				DA5154D82564102900C01004 /* Sauce in Frameworks */,
+				DA13D7CA2C19F52B00FA9E23 /* LaunchAtLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62DB75F1034D4B7FD4FD8294 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				01E761211CA3C8BAA2727879 /* Signing.xcconfig */,
+			);
+			name = Config;
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C2D16D1C2EE365D52E1EE446 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F464F2020E4DF00425C11 /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAEE383A1E3DBEB100DD2966 = {
+			isa = PBXGroup;
+			children = (
+				DAEE38451E3DBEB100DD2966 /* PromptHUD */,
+				DA00992F256411F90030E697 /* LICENSE */,
+				DAEE38441E3DBEB100DD2966 /* Products */,
+				C2D16D1C2EE365D52E1EE446 /* Frameworks */,
+				62DB75F1034D4B7FD4FD8294 /* Config */,
+			);
+			sourceTree = "<group>";
+		};
+		DAEE38441E3DBEB100DD2966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAEE38431E3DBEB100DD2966 /* PromptHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAEE38451E3DBEB100DD2966 /* PromptHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DAEE38461E3DBEB100DD2966 /* AppDelegate.swift */,
+				DABDE97E2974706C005B32E9 /* KeyboardLayout.swift */,
+				DA05B5102C234CB1006980FE /* PromptHUDApp.swift */,
+				DAB8CE4024E3677F00A2500E /* PromptHUD.entitlements */,
+				DAEE384D1E3DBEB100DD2966 /* Info.plist */,
+				42E9C328301B7F9C00B6B55B /* AppIcon.icon */,
+				DA6373971E4AB9BB00263391 /* Assets.xcassets */,
+				4C5D4F19602FD8A37AACDEC4 /* PHModels.swift */,
+				EF55D547E2E34408E05EDA1C /* PHStore.swift */,
+				754825B01B06BDA1C3F8CBEA /* PHSearch.swift */,
+				64B4C6980403BF9A11F1B399 /* PHSystem.swift */,
+				BD30B1BD12408CB44E5A58A3 /* PHPanel.swift */,
+				AA1AF2186AC60DCE461FAB04 /* PHHUD.swift */,
+				4A5C6FCBBAF3A4D27FCA11E4 /* PHCapture.swift */,
+				EE3A0A0FF001C796829917DA /* PHSettings.swift */,
+				2543FB3694EC51E2997921C3 /* PHUsage.swift */,
+				5E94458547E5725C04C95D3A /* Localizable.xcstrings */,
+			);
+			path = PromptHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAEE38421E3DBEB100DD2966 /* PromptHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAEE38501E3DBEB100DD2966 /* Build configuration list for PBXNativeTarget "PromptHUD" */;
+			buildPhases = (
+				DAEE383F1E3DBEB100DD2966 /* Sources */,
+				DAEE38401E3DBEB100DD2966 /* Frameworks */,
+				DAEE38411E3DBEB100DD2966 /* Resources */,
+				DAAAAB942C7664A2004FBC3C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromptHUD;
+			packageProductDependencies = (
+				DA5154D72564102900C01004 /* Sauce */,
+				DA009954256414E60030E697 /* KeyboardShortcuts */,
+				DA13D7C92C19F52B00FA9E23 /* LaunchAtLogin */,
+			);
+			productName = PromptHUD;
+			productReference = DAEE38431E3DBEB100DD2966 /* PromptHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAEE383B1E3DBEB100DD2966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1520;
+				ORGANIZATIONNAME = p0deje;
+				TargetAttributes = {
+					DA0EE7B5204657830025FC60 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = MN3X4648SC;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAEE38421E3DBEB100DD2966;
+					};
+					DA360DAF1E3DF137005C6F6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MN3X4648SC;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAEE38421E3DBEB100DD2966;
+					};
+					DAEE38421E3DBEB100DD2966 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = DAEE383E1E3DBEB100DD2966 /* Build configuration list for PBXProject "PromptHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = DAEE383A1E3DBEB100DD2966;
+			packageReferences = (
+				DA5154D62564102900C01004 /* XCRemoteSwiftPackageReference "Sauce" */,
+				DA009953256414E60030E697 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				DA13D7C82C19F43E00FA9E23 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
+			productRefGroup = DAEE38441E3DBEB100DD2966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAEE38421E3DBEB100DD2966 /* PromptHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAEE38411E3DBEB100DD2966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6373981E4AB9BB00263391 /* Assets.xcassets in Resources */,
+				DA009934256411F90030E697 /* LICENSE in Resources */,
+				42E9C329301B7F9C00B6B55B /* AppIcon.icon in Resources */,
+				CC4F55E6D7E17FD698FA8819 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAEE383F1E3DBEB100DD2966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D7C90299746B110EA5E0F5 /* PHModels.swift in Sources */,
+				4F13E3EF918992CA439E33EF /* PHStore.swift in Sources */,
+				F386637480985627EB0F3610 /* PHSearch.swift in Sources */,
+				420D62D84C7CA431A46D9647 /* PHSystem.swift in Sources */,
+				2C746E2243E2B9E440318F9D /* PHPanel.swift in Sources */,
+				9B2C8009ECACF2EA9C8CD6E5 /* PHHUD.swift in Sources */,
+				AD27515E6EDA38A0E08D0C0C /* PHCapture.swift in Sources */,
+				728ABC9B07CFDC9A78DE36F5 /* PHSettings.swift in Sources */,
+				1AC72BD9711905B86431D0F3 /* PHUsage.swift in Sources */,
+				DABDE97F2974706C005B32E9 /* KeyboardLayout.swift in Sources */,
+				DA05B5112C234CB2006980FE /* PromptHUDApp.swift in Sources */,
+				DAEE38471E3DBEB100DD2966 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DAEE384E1E3DBEB100DD2966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+			};
+			name = Debug;
+		};
+		DAEE384F1E3DBEB100DD2966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+			};
+			name = Release;
+		};
+		DAEE38511E3DBEB100DD2966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E761211CA3C8BAA2727879 /* Signing.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PromptHUD/PromptHUD.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 8;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				EXCLUDED_SOURCE_FILE_NAMES = AppIcon.icon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PromptHUD/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yancy.prompthud;
+				PRODUCT_MODULE_NAME = PromptHUD;
+				PRODUCT_NAME = PromptHUD;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAEE38521E3DBEB100DD2966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E761211CA3C8BAA2727879 /* Signing.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PromptHUD/PromptHUD.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 8;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PromptHUD/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yancy.prompthud;
+				PRODUCT_MODULE_NAME = PromptHUD;
+				PRODUCT_NAME = PromptHUD;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAEE383E1E3DBEB100DD2966 /* Build configuration list for PBXProject "PromptHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEE384E1E3DBEB100DD2966 /* Debug */,
+				DAEE384F1E3DBEB100DD2966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAEE38501E3DBEB100DD2966 /* Build configuration list for PBXNativeTarget "PromptHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEE38511E3DBEB100DD2966 /* Debug */,
+				DAEE38521E3DBEB100DD2966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA009953256414E60030E697 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		DA13D7C82C19F43E00FA9E23 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		DA5154D62564102900C01004 /* XCRemoteSwiftPackageReference "Sauce" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Clipy/Sauce";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA009954256414E60030E697 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA009953256414E60030E697 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		DA13D7C92C19F52B00FA9E23 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA13D7C82C19F43E00FA9E23 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+		DA5154D72564102900C01004 /* Sauce */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA5154D62564102900C01004 /* XCRemoteSwiftPackageReference "Sauce" */;
+			productName = Sauce;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DAEE383B1E3DBEB100DD2966 /* Project object */;
+}

@@ -1,0 +1,98 @@
+name: Release
+
+# Pushing a tag like v1.5.0 builds the app and attaches it to a GitHub release.
+# You can also run it from the Actions page to rebuild an existing tag.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to build and attach the app to (for example v1.5.0)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  macos:
+    name: macOS (Apple silicon + Intel)
+    runs-on: macos-26
+    timeout-minutes: 30
+    env:
+      TAG: ${{ github.event_name == 'push' && github.ref_name || inputs.tag }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ env.TAG }}
+
+      - name: Check the tag matches the app version
+        run: |
+          VERSION=$(grep -m1 'MARKETING_VERSION' PromptHUD.xcodeproj/project.pbxproj | sed 's/.*= *\(.*\);/\1/')
+          if [ "v$VERSION" != "$TAG" ]; then
+            echo "Tag $TAG does not match the app version v$VERSION" >&2
+            exit 1
+          fi
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+
+      - name: Run data-rule tests
+        run: scripts/test.sh
+
+      - name: Build Release (signed to run locally)
+        run: |
+          xcodebuild -version
+          xcodebuild -project PromptHUD.xcodeproj -scheme PromptHUD -configuration Release \
+            -derivedDataPath DerivedData/PromptHUD \
+            ARCHS="arm64 x86_64" ONLY_ACTIVE_ARCH=NO build -quiet
+
+      - name: Package
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          cp -R DerivedData/PromptHUD/Build/Products/Release/PromptHUD.app "dist/Prompt HUD.app"
+          codesign --verify --deep --strict "dist/Prompt HUD.app"
+          ASSET="Prompt-HUD-$VERSION-macOS.zip"
+          (cd dist && ditto -c -k --sequesterRsrc --keepParent "Prompt HUD.app" "$ASSET" \
+            && shasum -a 256 "$ASSET" > "$ASSET.sha256")
+          echo "ASSET=$ASSET" >> "$GITHUB_ENV"
+
+      - name: Write release notes
+        run: |
+          set -euo pipefail
+          {
+            # The matching section of CHANGELOG.md, without its heading.
+            awk -v v="$VERSION" '
+              /^## \[/ { if (found) exit; if (index($0, "[" v "]")) { found = 1; next } }
+              found' CHANGELOG.md
+            cat <<'NOTES'
+
+          ## Install
+
+          1. Download `ASSET_NAME` below and unzip it.
+          2. Drag **Prompt HUD.app** into **Applications**.
+          3. Open it. The app is not notarized by Apple, so macOS blocks it the first time. Go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway**. (Or run `xattr -cr "/Applications/Prompt HUD.app"` in Terminal, then open it.)
+          4. Allow **Accessibility** when asked, so Prompt HUD can insert prompts at the cursor.
+
+          When you update, macOS may forget the Accessibility permission. Turn Prompt HUD off and on again in System Settings → Privacy & Security → Accessibility.
+
+          ## 安装
+
+          1. 下载下方的 `ASSET_NAME`，解压。
+          2. 把 **Prompt HUD.app** 拖进「应用程序」。
+          3. 打开它。App 没有经过苹果公证，第一次打开会被系统拦下：到「系统设置 → 隐私与安全性」，往下翻，点「仍要打开」。（也可以在终端运行 `xattr -cr "/Applications/Prompt HUD.app"` 后再打开。）
+          4. 按提示允许「辅助功能」权限，Prompt HUD 才能把提示词插入到光标处。
+
+          更新后，系统可能会忘记辅助功能权限：到「系统设置 → 隐私与安全性 → 辅助功能」，把 Prompt HUD 关掉再打开。
+          NOTES
+          } | sed "s/^          //; s/ASSET_NAME/$ASSET/g" > dist/notes.md
+          cat dist/notes.md
+
+      - name: Publish to the release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh release view "$TAG" >/dev/null 2>&1 || \
+            gh release create "$TAG" --verify-tag --title "Prompt HUD $VERSION" --notes-file dist/notes.md
+          gh release upload "$TAG" "dist/$ASSET" "dist/$ASSET.sha256" --clobber
+          echo "Uploaded $ASSET to $TAG"

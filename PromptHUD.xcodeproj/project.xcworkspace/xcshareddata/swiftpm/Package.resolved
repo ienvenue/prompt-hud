@@ -1,0 +1,33 @@
+{
+  "originHash" : "cfdb993e17ae8ca889f27ffb30f3cb9fcd4f5f6bc10bf88cf743a4fd533863b4",
+  "pins" : [
+    {
+      "identity" : "keyboardshortcuts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/KeyboardShortcuts",
+      "state" : {
+        "revision" : "e6b60117ec266e1e5d059f7f34815144f9762b36",
+        "version" : "2.0.2"
+      }
+    },
+    {
+      "identity" : "launchatlogin-modern",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/LaunchAtLogin-Modern",
+      "state" : {
+        "revision" : "a04ec1c363be3627734f6dad757d82f5d4fa8fcc",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "sauce",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Clipy/Sauce",
+      "state" : {
+        "revision" : "df657bc1beba23ffd580953f183cd756b5bcd514",
+        "version" : "2.4.1"
+      }
+    }
+  ],
+  "version" : 3
+}

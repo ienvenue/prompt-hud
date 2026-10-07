@@ -1,0 +1,10 @@
+// Code signing for the PromptHUD app target.
+// Default: "Sign to Run Locally", so anyone can build without an Apple account.
+// To sign with your own certificate (keeps the Accessibility permission across rebuilds),
+// create Config/Signing.local.xcconfig (git-ignored), for example:
+//   CODE_SIGN_IDENTITY = Apple Development
+//   DEVELOPMENT_TEAM = YOURTEAMID
+CODE_SIGN_IDENTITY = -
+DEVELOPMENT_TEAM =
+
+#include? "Signing.local.xcconfig"

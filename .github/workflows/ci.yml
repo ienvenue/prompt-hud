@@ -1,0 +1,33 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Test and build
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Show Xcode version
+        run: xcodebuild -version
+
+      - name: Run data-rule tests
+        run: scripts/test.sh
+
+      - name: Build Release (signed to run locally)
+        run: |
+          xcodebuild -project PromptHUD.xcodeproj -scheme PromptHUD -configuration Release \
+            -derivedDataPath DerivedData/PromptHUD \
+            ARCHS="arm64 x86_64" ONLY_ACTIVE_ARCH=NO build -quiet
+          lipo -info DerivedData/PromptHUD/Build/Products/Release/PromptHUD.app/Contents/MacOS/PromptHUD

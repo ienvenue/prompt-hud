@@ -1,0 +1,1224 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%.1f s": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%.1f 秒"
+          }
+        }
+      }
+    },
+    "%@ · very similar": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · 相似度高"
+          }
+        }
+      }
+    },
+    "About Prompt HUD": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关于 Prompt HUD"
+          }
+        }
+      }
+    },
+    "Accessibility permission": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "辅助功能权限"
+          }
+        }
+      }
+    },
+    "Accessibility permission is off, so the selected text can’t be read. Paste the text here instead.": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未授予辅助功能权限，无法读取选中文字。可直接粘贴正文。"
+          }
+        }
+      }
+    },
+    "Add Prompt": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "收录提示词"
+          }
+        }
+      }
+    },
+    "Added “%@”": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已收录「%@」"
+          }
+        }
+      }
+    },
+    "All": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部"
+          }
+        }
+      }
+    },
+    "Backups Folder": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "备份文件夹"
+          }
+        }
+      }
+    },
+    "Below goal (≥ 20)": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未达标（目标 ≥ 20）"
+          }
+        }
+      }
+    },
+    "Below goal (≥ 5)": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未达标（目标 ≥ 5）"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
+          }
+        }
+      }
+    },
+    "Can’t create the prompts folder: %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法创建提示词文件夹：%@"
+          }
+        }
+      }
+    },
+    "Can’t read the old prompts file, so it wasn’t moved: %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旧版提示词文件无法读取，未迁移：%@"
+          }
+        }
+      }
+    },
+    "Capture Selected Text": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "收录选中文字"
+          }
+        }
+      }
+    },
+    "Capture selected text": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "收录选中文字"
+          }
+        }
+      }
+    },
+    "Captured: %lld　%@": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新收录：%lld 条　%@"
+          }
+        }
+      }
+    },
+    "Category": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "分类"
+          }
+        }
+      }
+    },
+    "Close": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关闭"
+          }
+        }
+      }
+    },
+    "Closed after a search with no results: %@　goal ≤ 10%%": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜索无结果后关闭：%@　目标 ≤ 10%%"
+          }
+        }
+      }
+    },
+    "Copied — press ⌘V to paste": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已复制，按 ⌘V 粘贴"
+          }
+        }
+      }
+    },
+    "Couldn’t delete. The prompt file may be damaged.": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除失败：提示词文件可能有格式错误"
+          }
+        }
+      }
+    },
+    "Couldn’t read prompts": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "提示词文件读取失败"
+          }
+        }
+      }
+    },
+    "Couldn’t save. Check disk permissions.": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存失败，请检查磁盘权限"
+          }
+        }
+      }
+    },
+    "Data": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "数据"
+          }
+        }
+      }
+    },
+    "Default when empty": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "留空时默认"
+          }
+        }
+      }
+    },
+    "Defaults to the start of the text": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "默认取正文开头"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除"
+          }
+        }
+      }
+    },
+    "Delete this prompt?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除这条提示词？"
+          }
+        }
+      }
+    },
+    "Deleted “%@”": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已删除「%@」"
+          }
+        }
+      }
+    },
+    "Downloading %lld files from iCloud": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在从 iCloud 下载 %lld 个文件"
+          }
+        }
+      }
+    },
+    "Edit Prompt": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "编辑提示词"
+          }
+        }
+      }
+    },
+    "Edit · %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "编辑 · %@"
+          }
+        }
+      }
+    },
+    "File error": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文件格式错误"
+          }
+        }
+      }
+    },
+    "From %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "来自 %@"
+          }
+        }
+      }
+    },
+    "From a web link. Check it, then press ⌘↵ to save.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "来自网页链接，检查无误后按 ⌘↵ 保存"
+          }
+        }
+      }
+    },
+    "General": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通用"
+          }
+        }
+      }
+    },
+    "Granted": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已授予"
+          }
+        }
+      }
+    },
+    "Hide the text after this many uses": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用多少次后隐藏正文"
+          }
+        }
+      }
+    },
+    "Insert": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "插入"
+          }
+        }
+      }
+    },
+    "Inserted: %lld　%@": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "成功插入：%lld 次　%@"
+          }
+        }
+      }
+    },
+    "Invalid JSON: %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JSON 格式错误：%@"
+          }
+        }
+      }
+    },
+    "Invalid file: the \"prompts\" array is missing": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文件结构错误：缺少 \"prompts\" 数组"
+          }
+        }
+      }
+    },
+    "It is also a system shortcut (System Settings → Keyboard → Keyboard Shortcuts), so Prompt HUD may not respond to it. Choose another one in Settings.": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "它和系统快捷键（系统设置 → 键盘 → 键盘快捷键）重复了，按下后 Prompt HUD 可能不会响应。请在设置里换一个。"
+          }
+        }
+      }
+    },
+    "Launch at login": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开机自动启动"
+          }
+        }
+      }
+    },
+    "Loaded %lld prompts": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已加载 %lld 条提示词"
+          }
+        }
+      }
+    },
+    "Macs signed in to the same Apple ID sync prompts and settings automatically (except shortcuts).": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录同一个 Apple ID 的 Mac 会自动同步提示词和设置（快捷键除外）。"
+          }
+        }
+      }
+    },
+    "New category “%@”": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新建分类「%@」"
+          }
+        }
+      }
+    },
+    "New text": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新正文"
+          }
+        }
+      }
+    },
+    "No matches": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "没有找到"
+          }
+        }
+      }
+    },
+    "No selected text found. Paste the text here instead.": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未读取到选中文字，可直接粘贴正文。"
+          }
+        }
+      }
+    },
+    "Not Now": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "以后再说"
+          }
+        }
+      }
+    },
+    "OK": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好"
+          }
+        }
+      }
+    },
+    "Old text": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旧正文"
+          }
+        }
+      }
+    },
+    "Once a prompt reaches this count, selecting it shows only the title; press → to see the text. Uses from all your Macs are added up, and the count starts over when you change the text.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "达到次数后，选中这条提示词时只显示标题，按 → 查看正文。次数是所有 Mac 的合计，修改正文后重新计数。"
+          }
+        }
+      }
+    },
+    "Open Log File": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开日志文件"
+          }
+        }
+      }
+    },
+    "Open Prompt HUD": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "唤出 Prompt HUD"
+          }
+        }
+      }
+    },
+    "Open Settings": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开设置"
+          }
+        }
+      }
+    },
+    "Open System Settings": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "前往系统设置授权"
+          }
+        }
+      }
+    },
+    "Open popup": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "唤出 HUD"
+          }
+        }
+      }
+    },
+    "Open → insert (median): %@　goal ≤ 3 s": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "唤出 → 插入耗时（中位数）：%@　目标 ≤ 3 秒"
+          }
+        }
+      }
+    },
+    "Opened at the text cursor: %@ (input field %lld, mouse %lld)": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "定位到文字光标的比例：%@（输入框 %lld 次，鼠标 %lld 次）"
+          }
+        }
+      }
+    },
+    "Pin": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "置顶"
+          }
+        }
+      }
+    },
+    "Pinned": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已置顶"
+          }
+        }
+      }
+    },
+    "Popup": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "提示词弹窗"
+          }
+        }
+      }
+    },
+    "Prompt %lld has no \"prompt\" text": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "第 %lld 条提示词缺少 \"prompt\" 内容"
+          }
+        }
+      }
+    },
+    "Prompt HUD Settings": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompt HUD 设置"
+          }
+        }
+      }
+    },
+    "Prompts: %lld　unused for 30 days: %lld%% (goal ≤ 50%%)": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "提示词总数：%lld　30 天未使用：%lld%%（目标 ≤ 50%%）"
+          }
+        }
+      }
+    },
+    "Quit": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出"
+          }
+        }
+      }
+    },
+    "Reload": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新加载"
+          }
+        }
+      }
+    },
+    "Replace": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "替换"
+          }
+        }
+      }
+    },
+    "Replace another": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "替换其他"
+          }
+        }
+      }
+    },
+    "Replace · %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "替换 · %@"
+          }
+        }
+      }
+    },
+    "Replaced “%@”": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已替换「%@」"
+          }
+        }
+      }
+    },
+    "Replacing can’t be undone.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "替换后无法撤销。"
+          }
+        }
+      }
+    },
+    "Save": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存"
+          }
+        }
+      }
+    },
+    "Save to": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存到"
+          }
+        }
+      }
+    },
+    "Saved on this Mac only": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只保存在本机"
+          }
+        }
+      }
+    },
+    "Saved “%@”": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已保存「%@」"
+          }
+        }
+      }
+    },
+    "Search or add a category": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜索或新建分类"
+          }
+        }
+      }
+    },
+    "Search prompts to replace": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜索要替换的提示词"
+          }
+        }
+      }
+    },
+    "Search titles or text": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜索标题或内容"
+          }
+        }
+      }
+    },
+    "Settings…": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置…"
+          }
+        }
+      }
+    },
+    "Shortcut %@ is taken": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "快捷键 %@ 被占用"
+          }
+        }
+      }
+    },
+    "Shortcuts": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "快捷键"
+          }
+        }
+      }
+    },
+    "Show Prompts Folder in Finder": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在访达中显示提示词文件夹"
+          }
+        }
+      }
+    },
+    "Show in Finder": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在访达中显示"
+          }
+        }
+      }
+    },
+    "Similar text": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "内容相似"
+          }
+        }
+      }
+    },
+    "Text": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正文"
+          }
+        }
+      }
+    },
+    "The prompts folder isn’t available: %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "提示词文件夹不可用：%@"
+          }
+        }
+      }
+    },
+    "The text can’t be empty": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正文不能为空"
+          }
+        }
+      }
+    },
+    "This field is in secure input mode, so nothing can be inserted": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前输入框处于安全输入状态，无法插入"
+          }
+        }
+      }
+    },
+    "This prompt no longer exists. It may have been deleted on another Mac.": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这条提示词已不存在，可能已在另一台 Mac 上被删除"
+          }
+        }
+      }
+    },
+    "Title": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "标题"
+          }
+        }
+      }
+    },
+    "Uncategorized": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未分类"
+          }
+        }
+      }
+    },
+    "Usage in the Last 7 Days": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近 7 天使用统计"
+          }
+        }
+      }
+    },
+    "Usage in the Last 7 Days…": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近 7 天使用统计…"
+          }
+        }
+      }
+    },
+    "Will be replaced": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "将被替换"
+          }
+        }
+      }
+    },
+    "Your prompts, right next to the text cursor.\n\nBased on Maccy\nMaccy © Alexey Rodionov, MIT License": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在光标旁边收集和调用提示词。\n\n基于 Maccy 二次开发\nMaccy © Alexey Rodionov，MIT License"
+          }
+        }
+      }
+    },
+    "iCloud Drive is off, so nothing syncs. When you turn it on, your prompts move to iCloud Drive automatically.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud 云盘未开启，不会同步。开启后会自动合并到 iCloud 云盘。"
+          }
+        }
+      }
+    },
+    "iCloud Drive › %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud 云盘 › %@"
+          }
+        }
+      }
+    },
+    "uses": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次"
+          }
+        }
+      }
+    },
+    "“%@” already has the same text, so this can’t be saved": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已有相同正文的提示词「%@」，不能重复保存"
+          }
+        }
+      }
+    },
+    "“%@” will be deleted. This can’t be undone.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「%@」会被删除，无法恢复。"
+          }
+        }
+      }
+    },
+    "→ Text": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "→ 正文"
+          }
+        }
+      }
+    },
+    "⌘↵": {
+      "shouldTranslate": false
+    },
+    "⚠️ Accessibility Permission Needed…": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠️ 需要辅助功能权限…"
+          }
+        }
+      }
+    },
+    "⚠️ Couldn’t Read Prompts (click for details)": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠️ 提示词读取出错（点击查看）"
+          }
+        }
+      }
+    },
+    "⚠️ Shortcut %@ is taken (click to change)": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠️ 快捷键 %@ 被占用（点击更换）"
+          }
+        }
+      }
+    },
+    "⚠️ iCloud Drive Is Off — Saved on This Mac Only": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠️ iCloud 云盘未开启，只保存在本机"
+          }
+        }
+      }
+    },
+    "✅ Goal met": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "✅ 已达标"
+          }
+        }
+      }
+    },
+    "＋ New prompt": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "＋ 新提示词"
+          }
+        }
+      }
+    },
+    "＋ Save as a new prompt": {
+      "extractionState": "stale",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "＋ 存为新提示词"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
